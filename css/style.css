@@ -1,0 +1,103 @@
+header {
+    background-color: #bfbfbf;
+}
+h1 {
+    display: block;
+    text-align: center;
+    color: #000;
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 1.3em;
+    margin: 5px 0px 5px 170px;
+    text-decoration: underline;
+}
+p {
+    display: block;
+    margin: 0px 200px 0px 200px;
+    line-height: 1.2em;
+    width: 70%;
+    text-align: justify;
+    text-indent: 35px;;
+}
+/* Nav Bar*/
+nav {
+    display:block;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    background-color: #2C66C6;
+    text-align: center;
+    border: 3px solid black;
+    padding: 0;
+    margin: 0;
+
+}
+nav li {
+    display: inline-block;
+    width: 20%;
+    margin:auto;
+    border: solid black;
+    border-width: 0px 3px 0px 3px;
+    padding: 0px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    background-color: #2C66C6;
+
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 15px;
+}
+.current {
+    color: #2C66C6;
+    background-color: white;
+}
+nav a:hover {
+    background-color: grey;
+}
+
+
+/* Skip To Content Link */
+.skiplink {
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+.skiplink:hover {
+    color: green;
+}
+
+/* Images Gallery */
+div {
+    background-color: grey;
+}
+.gallery {
+    display:inline-block;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    border: 5px solid #2C66C6;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+img.gallery:hover {
+    background-color: #2C66C6;
+    border: 4px solid white;
+}
+
+#industryimg {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
