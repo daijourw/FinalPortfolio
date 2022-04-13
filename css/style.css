@@ -52,6 +52,7 @@ h1 {
     border: 5px solid #2C66C6;
     justify-self: center;
     text-align: center;
+    color: white;
 }
 /* grid container for body- includes images and text */
 .bodyContainer {
@@ -135,10 +136,10 @@ footer ul {
     align-items: baseline;
 }
 footer a:hover {
-    color: lightblue;
+    color: white;
 }
 footer a:visited{
-    color: aqua;
+    color: lightblue;
 
 }
 .fa-regularfa-envelope {
@@ -311,7 +312,7 @@ p.card {
 }
 
 
-h3.contact {
+h2.contact {
     text-align: center;
 }
 div.contact {
@@ -325,6 +326,7 @@ div.contact form {
 input {
     margin: 5px;
 }
+
 /* form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -439,7 +441,6 @@ input[type=text] {
         /* justify-items: ; */
         justify-content:center;
         /* align-items: stretch; */
-        background-color: green;
         padding: 10px;
     }
     .flexGallery {
@@ -498,7 +499,6 @@ input[type=text] {
     .flexContainer {
         display: flex;
         justify-content: space-evenly;
-        background-color: yellow;
         padding: 10px;
     }
     .flexGallery {
