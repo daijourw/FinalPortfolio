@@ -38,7 +38,7 @@ h1 {
     border: 5px solid #2C66C6;
     justify-self: center;
     text-align: center;
-    color: black;
+    color: rgb(0, 162, 255);
 }
 /* Industry page header with background image */
 
@@ -52,7 +52,7 @@ h1 {
     border: 5px solid #2C66C6;
     justify-self: center;
     text-align: center;
-    color: white;
+    color: rgb(0, 162, 255);
 }
 /* grid container for body- includes images and text */
 .bodyContainer {
