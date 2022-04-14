@@ -375,13 +375,27 @@ input[type=text] {
         transition: initial;
     }
     .cardContent {
-        width: 40vw;
-        height: 25vh;
         transform: none;
         transition: none;
     }
     .slides {
-        -webkit-overflow-scrolling: unset;
+        -webkit-overflow-scrolling: initial;
+        scroll-behavior: initial;
+    }
+    .cardContent {
+        transition: none;
+        transform-style:initial;
+    }
+    .card:hover .cardContent {
+        transform: none;
+        transition: none;
+    }
+    .card:focus .cardContent {
+        transform: none;
+        transition:none;
+    }
+    .cardBack {
+        transform:none;
     }
 
   }
@@ -453,7 +467,6 @@ input[type=text] {
         padding: 5px;
         background-color: white;
     }
-    #f3, #f4, #f5 {}
 }
 @media only screen and (min-width: 1000px) {
     /* Grid Gallery */
